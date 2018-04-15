@@ -1,0 +1,265 @@
+/* CSS INDEX
+
+    1.Theme Defaults
+    2.Header Area 
+    3.Slider Area
+    4.Booking Area
+    5.Feature Area
+    6.Home Service Area
+    7.Video Area
+    8.Destination Area
+    9.Popular Packages
+    10.Popular Places
+    11.Discount Area
+    12.News Area
+    13.Gallery Area
+    14.Contact Us
+*/
+
+/* 1.Theme Defaults */
+.f-right{
+    float:right
+}
+.text-center{
+    text-align:center;
+}
+.bg-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.4);
+}
+/* 2.Header Area */
+
+.header{
+    height:30vh;
+    background-color:white;
+    padding:50px;
+}
+.social-icons ul{
+    list-style: none;
+    display: flex;
+}
+
+#mobile-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#mobile-menu ul li{
+    margin:4px;
+}
+
+/* 3.Slider Area */
+#slider-area{
+    height:100vh;
+    background: url('../bg/slider.jpg');
+    color:white;    
+}
+.slider-content-area{
+    padding-top:274px;
+}
+
+/* 4.Booking Area */
+#booking-area{
+    height:40vh;
+    border:2px solid black;
+    width:80%;
+    margin:auto;
+}
+.top-bar-option{
+    display:flex;
+}
+.select-bar{
+    display: flex;
+    list-style:none;
+}
+.select-bar li{
+    margin:5px;
+}
+
+/* 5.Feature Area */
+#feature-area{
+    height:30vh;
+    padding:30px;
+}
+
+/* 6.Home Service Area */
+.home-service-img img{
+    margin-left:-54px;
+    width:100%;
+}
+.home-service-content{
+    padding-top:100px;
+}
+.home-service-content ul{
+    list-style: none;
+}
+.home-service-content ul li{
+    float:left;
+    width:50%;
+}
+
+/* 7.Video Area */
+#video-area{
+    height:100vh;
+    width:100%;
+    background: url("../bg/snow.jpg");
+    position: relative;
+
+}
+.video-content{
+    padding-top:40vh;
+    color:white;
+}
+
+/* 8.Destination Area */
+.destination-content{
+    padding-top:30vh;
+}
+.destination-img{
+    padding-top:10vh;
+}
+.destination-img img{
+    width:105%;
+}
+.destination-feature{
+    list-style: none;
+}
+.destination-feature li{
+    float:left;
+    width:50%;
+}
+
+/* 9.Popular Packages */
+#popular-packages{
+    position: relative;
+    width:100%;
+    height:120vh;
+    background: url('../bg/pack-bg.jpg');
+    color:white;
+}
+#popular-packages .heading{
+    margin-top:20vh;
+}
+.image-section{
+    position: relative;
+}
+.image-section img{
+    width:100%;
+}
+.package-cost{
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+/* 10.Popular Places */
+#popular-places{
+    min-height:100vh;
+    width:100%;
+}
+.single-pp-item{
+    background-color:#FAFAFA;
+    position: relative;
+    height:140px;
+    margin-bottom:20px;
+}
+.popular-p-pricing{
+    position: absolute;
+    top:0;
+    right: 0;
+    height:100%;
+    float:right;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.pp-thumb{
+    float:left;
+}
+
+/* 11.Discount Area */
+#discount-area{
+    height:60vh;
+    width:100%;
+    background: url('../bg/promote.jpg');
+    position: relative;
+}
+.discount-area-content{
+    color:white;
+    padding-top:20vh;
+}
+
+/* 12.News Area */
+#news-area{
+    width:100%;
+    height:100vh;
+}
+.single-blog-content img{
+    width:100%;
+}
+
+/* 13.Gallery Area */
+#gallery-area{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+#gallery-area:hover #customize-controls li{
+    opacity:1;
+}
+.single-gallery-item{
+    position: relative;
+    margin:3px;
+}
+.single-gallery-img img{
+    width:90%;
+}
+.single-gallery-content{
+    position:absolute;
+    left:0;
+    bottom:0;
+    color:white;
+}
+#customize-controls{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top:90px;
+    z-index:1;
+}
+#customize-controls li{
+    width:40px;
+    height:100%;
+    background-color:grey;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+/* 14.Contact Us */
+#contact-us{
+    width:100%;
+    height:70vh;
+    background:url('../bg/pack-bg.jpg');
+    position: relative;
+    padding-top:100px;
+}
+#contact-us ul{
+    list-style: none;
+    padding:0;
+}
+#contact-us a{
+    color:white;
+    text-decoration: none;
+}
+.footer-widget{
+    color:white;
+}
