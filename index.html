@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="tiny-slider.css">
+    <link rel="stylesheet" href="noUiSlider/nouislider.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/noUiSlider.css">
     <title>This is running</title>
 </head>
 <body>
@@ -122,7 +124,7 @@
             </div>
             <div class="filter-part">
                 <div class="range-wrapper">
-                    Budget Now:
+                    Budget Now: <div id="slider"></div>
                 </div>
                 <div class="filter-button">
 
@@ -681,19 +683,7 @@
 
 
     <script src="tiny-slider.js"></script>
-    <script>  
-        var slider= tns({
-            "container": ".gallery-slider",
-            "items": 4,
-            "controlsContainer": "#customize-controls",
-            "controls":true,
-            "autoplay": true,
-            "nav":false,
-            "autoplayButtonOutput":false,
-            "autoplayTimeout": 3000,
-            "speed": 400
-        })
-
-    </script>
+    <script src="noUiSlider/nouislider.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

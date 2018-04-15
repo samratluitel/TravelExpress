@@ -79,6 +79,9 @@
 .select-bar li{
     margin:5px;
 }
+.range-wrapper{
+    display: flex;
+}
 
 /* 5.Feature Area */
 #feature-area{

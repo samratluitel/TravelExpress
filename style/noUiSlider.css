@@ -1,0 +1,13 @@
+.noUi-target{
+    width:300px;
+    height:8px;
+    margin-left:30px;
+    margin-top:4px;
+}
+.noUi-base{
+    background-color:#DCDCDC;
+}
+.noUi-handle{
+    background-color:#F9676B;
+ width:10px !important;
+}
