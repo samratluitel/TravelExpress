@@ -19,3 +19,6 @@ noUiSlider.create(slider, {
         'max': 100
     }
 });
+var connect = document.querySelector(".noUi-connects");
+connect.style.removeProperty('z-index');
+Select.init();

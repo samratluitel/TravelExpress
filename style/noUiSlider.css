@@ -9,5 +9,27 @@
 }
 .noUi-handle{
     background-color:#F9676B;
- width:10px !important;
+    width:15px !important;
+    height:15px !important;
+    border-radius: 50%;
+    box-shadow:none;
+    right:-14px !important;
+    top:-4.5px !important;
+}
+.noUi-handle:focus{
+    outline: none;
+}
+.noUi-connect{
+    background-color:#F9676B;
+    z-index:1 !important;
+}
+.noUi-handle:before{
+    content:"";
+    height:0px;
+    width:0px;
+}
+.noUi-handle:after{
+    content:"";
+    height:0px;
+    width:0px;
 }

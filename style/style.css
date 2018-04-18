@@ -15,8 +15,17 @@
     13.Gallery Area
     14.Contact Us
 */
-
+/* Emergency editing not a good code */
+/*Changes the HOTEL of Slider Area */
+.top-button-inner a{
+    background-color:#F9676B !important;
+    color:white !important;
+    border:none !important;
+    padding-left:35px !important;
+}
 /* 1.Theme Defaults */
+
+
 .f-right{
     float:right
 }
