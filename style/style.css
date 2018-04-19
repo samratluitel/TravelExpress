@@ -85,10 +85,10 @@ a:hover{
     margin-left:10px;
     margin-right:10px;
 }
-/* #mobile-menu ul{
+#mobile-menu ul{
     display: flex;
     list-style: none;
-} */
+} 
 
 #mobile-menu ul li{
     margin:4px;
