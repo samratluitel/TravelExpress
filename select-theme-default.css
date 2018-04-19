@@ -22,7 +22,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none; }
+  user-select: none;
+  position: relative;
+  z-index: 99;
+ }
   .select.select-theme-default .select-content {
     border-radius: .25em;
     box-shadow:none;

@@ -25,12 +25,31 @@
 }
 /* 1.Theme Defaults */
 
-
+*{
+    font-family:"Roboto",sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a i{
+    font-size:inherit;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
 .f-right{
     float:right
 }
 .text-center{
     text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+.flex{
+    display:flex;
 }
 .bg-overlay{
     position: absolute;
@@ -40,6 +59,8 @@
     height:100%;
     background-color: rgba(0,0,0,0.4);
 }
+
+
 /* 2.Header Area */
 
 .header{
@@ -47,15 +68,27 @@
     background-color:white;
     padding:50px;
 }
+.header hr{
+    margin-top:-0.3rem;
+    margin-bottom:2rem;
+}
+.header-top{
+    font-size:14px;
+    line-height: 21px;
+    color:#5d6c83;
+}
 .social-icons ul{
     list-style: none;
     display: flex;
 }
-
-#mobile-menu ul{
+.social-icons ul li{
+    margin-left:10px;
+    margin-right:10px;
+}
+/* #mobile-menu ul{
     display: flex;
     list-style: none;
-}
+} */
 
 #mobile-menu ul li{
     margin:4px;
