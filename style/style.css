@@ -23,6 +23,24 @@
     border:none !important;
     padding-left:35px !important;
 }
+
+/* Side-Navigation */
+.side-nav{
+    position: fixed;
+    background-color:#253039;
+    transition: width 0.3s;
+    overflow: hidden;
+    width:0px;
+    height:100vh;
+    z-index:99;
+}
+.side-nav a{
+    color:white;
+}
+
+.open-slider{
+    cursor:pointer;
+}
 /* 1.Theme Defaults */
 
 *{
@@ -31,9 +49,6 @@
 a{
     text-decoration: none;
     color:black;
-}
-a i{
-    font-size:inherit;
 }
 a:hover{
     text-decoration: none;
@@ -51,6 +66,19 @@ a:hover{
 .flex{
     display:flex;
 }
+.btn{
+    background-color:#F96D71;
+    color:white;
+    border-radius: 0;
+    transition:all 0.3s;
+}
+.btn:hover{
+    background-color:white;
+    color:#F96D71;
+}
+.btn-lg{
+    padding:14px 40px 14px 40px;
+}
 .bg-overlay{
     position: absolute;
     top:0;
@@ -64,9 +92,10 @@ a:hover{
 /* 2.Header Area */
 
 .header{
-    height:30vh;
+    height:28vh;
     background-color:white;
     padding:50px;
+    font-family:"Roboto";
 }
 .header hr{
     margin-top:-0.3rem;
@@ -85,13 +114,43 @@ a:hover{
     margin-left:10px;
     margin-right:10px;
 }
-#mobile-menu ul{
+#mobile-menu > ul{
     display: flex;
     list-style: none;
 } 
-
-#mobile-menu ul li{
-    margin:4px;
+#mobile-menu > ul>li{
+    margin:10px;
+    position: relative;
+}
+#mobile-menu ul li a{
+    color:#1b1b1b;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.submenu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    position: absolute;
+    margin-top:38px;
+    width:200px;
+    transition:height 0.3s;
+}
+.submenu li{
+    background-color:#FFFFFF;
+    padding:10px;
+    margin-bottom:1px;
+}
+li .submenu{
+    height:0;
+    overflow: hidden;
+}
+li:hover .submenu{
+    height:200px;
+}
+a .fa-chevron-down{
+    font-size:13px;
 }
 
 /* 3.Slider Area */
@@ -103,7 +162,15 @@ a:hover{
 .slider-content-area{
     padding-top:274px;
 }
-
+.slider-content-area h1{
+    font-size:60px;
+    font-family: sans-serif;
+    letter-spacing:7px;
+    font-weight:800;
+}
+.slider-content-area h4{
+    letter-spacing:2px;
+}
 /* 4.Booking Area */
 #booking-area{
     height:40vh;

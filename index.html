@@ -17,7 +17,13 @@
     <title>This is running</title>
 </head>
 <body>
-
+    <!-- Menu on mobile screens -->
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="CloseSlideMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Tours</a>
+        <a href="#">Hotels</a>
+    </div>
     <!-- 2.Header Area -->
     <div class="header">
         <div class="container">
@@ -29,8 +35,8 @@
                             : <i class="fas fa-phone"></i> +9999587801 (Sunday - Friday : 9:00am - 5:00pm)
                         </div>
                     </div>
-                    <div class="col-md-4 flex">
-                        <div class="social-icons f-right">
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <div class="social-icons">
                             <ul>
                                 <li><i class="fab fa-facebook-f"></i></li>
                                 <li><i class="fab fa-google-plus-g"></i></li>
@@ -38,7 +44,7 @@
                                 <li><i class="fab fa-pinterest"></i></li>
                             </ul>  
                         </div>
-                        <div class="account f-right ml-3">
+                        <div class="account ml-3">
                                 ACCOUNT
                         </div>
                     </div>
@@ -58,15 +64,37 @@
                         <div class="basic-menu f-right">
                             <div id="mobile-menu">
                                 <ul>
-                                    <li>Home</li>
-                                    <li>Tours</li>
-                                    <li>Hotels</li>
                                     <li>
-                                        
+                                        <a href="#">Home</a>
                                     </li>
-                                    <li>Pages</li>
-                                    <li>Blog</li>
-                                    <li>Contact</li>
+                                    <li>
+                                        <a href="#">Tour</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hotels</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Packages <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="submenu">
+                                            <li class="subOption"><a href="">SUBMENU 1</a></li>
+                                            <li class="subOption"><a href="">SUBMENU 2</a></li>
+                                            <li class="subOption"><a href="">SUBMENU 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">Pages <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="submenu">
+                                            <li class="subOption"><a href="">About</a></li>
+                                            <li class="subOption"><a href="">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <span class="open-slider"><i class="fas fa-bars" onclick="OpenSlideMenu()"></i></span>
                                 </ul>
                             </div>
                         </div>
@@ -81,8 +109,8 @@
         <div class="section-slider-1">
             <div class="slider-content-area text-center">
                 <h1>POPULAR WORLD SCENE</h1>
-                <p>PERFECT WORLD TRAVEL AGENCY</p>
-                <div class="button">
+                <h4>PERFECT WORLD TRAVEL AGENCY</h4>
+                <div class="btn btn-lg mt-4">
                     EXPLORE MORE
                 </div>
             </div>

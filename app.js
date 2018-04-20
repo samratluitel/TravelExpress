@@ -1,3 +1,13 @@
+function OpenSlideMenu(){
+    document.getElementById("side-menu").style.height="100vh";
+    document.getElementById("side-menu").style.width="250px";
+}
+
+function CloseSlideMenu(){
+    setTimeout(()=>document.getElementById("side-menu").style.height="0px",300)
+    document.getElementById("side-menu").style.width="0px";
+}
+
 var slider= tns({
     "container": ".gallery-slider",
     "items": 4,
