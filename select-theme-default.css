@@ -93,7 +93,7 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   position: relative;
-  padding: 0.5rem 4.5em 0.5rem 1em;
+  padding: 0.5rem 4.5em 0.5rem 2em;
   background: white;
   border: 1px solid #999999;
   cursor: pointer;

@@ -160,7 +160,7 @@ a .fa-chevron-down{
     color:white;    
 }
 .slider-content-area{
-    padding-top:274px;
+    padding-top:225px;
 }
 .slider-content-area h1{
     font-size:60px;
@@ -174,8 +174,9 @@ a .fa-chevron-down{
 /* 4.Booking Area */
 #booking-area{
     height:40vh;
-    border:2px solid black;
-    width:80%;
+    position: relative;
+    top:-100px;
+    width:90%;
     margin:auto;
 }
 .top-bar-option{
@@ -191,7 +192,91 @@ a .fa-chevron-down{
 .range-wrapper{
     display: flex;
 }
-
+.top-left-text{
+    padding:8px 30px 0px 30px;
+    font-size:19px;
+    text-transform: uppercase;
+    background-color:white;
+}
+.top-button-inner{
+    position: relative;
+    background-color: #F96D71;
+    padding:3px 0px 0px 40px;
+}
+.top-button-inner select option{
+    font-size:20px;
+}
+.top-button-inner .fa-building{
+    color:white;
+    z-index:99;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left:20px;
+    margin-top:10px;
+    font-size:25px;
+}
+.form-action{
+    background-color: white;
+}
+.form-action .select-bar li{
+    margin:0px 15px 0px 15px;
+}
+.check input{
+    width:170px;
+    height:42px;
+    padding:0px 0px 0px 40px;
+}
+.form-action .check:before{
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+    color: #777;
+    position: absolute;
+    margin:8px 0px 0px 20px;
+}
+.location:before{
+    content: "\f3c5";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+    color: #777;
+    position: absolute;
+    margin:10px 0px 0px 15px;
+    font-size:15px;
+    z-index:99;
+}
+.room:before{
+    content: "\f236";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+    color: #777;
+    position: absolute;
+    margin:8px 0px 0px 10px;
+    z-index:99;
+}
+.member:before{
+    content: "\f007";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+    color: #777;
+    position: absolute;
+    margin:10px 0px 0px 10px;
+    z-index:99;
+    font-size:13px;
+}
+.filter-part{
+    margin-left:105px;
+}
+.filter-button{
+    margin-left:27%;
+    width:230px;
+    height:70px;
+    background-color:#F96D71;
+    color:white;
+    padding:17px 0px 0px 40px;
+    font-size:22px;
+    cursor:pointer;
+}
 /* 5.Feature Area */
 #feature-area{
     height:30vh;
